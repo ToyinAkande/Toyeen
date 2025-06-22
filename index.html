@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salesforce Business Analyst Portfolio</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts - Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc; /* Light gray background */
+            color: #334155; /* Dark slate gray text */
+        }
+        /* Custom scrollbar for better aesthetics */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #e2e8f0;
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #94a3b8;
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #64748b;
+        }
+        /* Simple keyframe animations for hero section */
+        @keyframes fade-in-down {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes fade-in-up {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .animate-fade-in-down {
+            animation: fade-in-down 0.8s ease-out forwards;
+        }
+        .animate-fade-in-up {
+            animation: fade-in-up 0.8s ease-out 0.2s forwards;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Header Section -->
+    <header class="bg-gradient-to-r from-blue-600 to-indigo-700 text-white shadow-lg py-6 px-4 md:px-8 rounded-b-xl">
+        <div class="container mx-auto flex flex-col md:flex-row items-center justify-between">
+            <h1 class="text-3xl md:text-4xl font-extrabold mb-2 md:mb-0">Salesforce Business Analyst Portfolio</h1>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#skills" class="text-white hover:text-blue-200 transition duration-300 font-medium">Skills</a></li>
+                    <li><a href="#projects" class="text-white hover:text-blue-200 transition duration-300 font-medium">Projects</a></li>
+                    <li><a href="#contact" class="text-white hover:text-blue-200 transition duration-300 font-medium">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="py-16 px-4 md:px-8 text-center bg-white shadow-inner rounded-xl mx-auto mt-8 max-w-7xl">
+        <div class="container mx-auto">
+            <h2 class="text-4xl md:text-5xl font-bold text-gray-800 mb-4 animate-fade-in-down">Hello! I'm a Salesforce Business Analyst.</h2>
+            <p class="text-lg md:text-xl text-gray-600 leading-relaxed max-w-3xl mx-auto animate-fade-in-up">
+                A results-driven Salesforce Business Analyst with expertise in bridging the gap between business needs and technological solutions, driving successful CRM implementations and optimizations.
+            </p>
+            <div class="mt-8">
+                <a href="#skills" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full shadow-lg transform transition duration-300 hover:scale-105">
+                    Explore My Expertise
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-16 px-4 md:px-8 bg-gray-50 rounded-xl mx-auto mt-8 max-w-7xl shadow-lg">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-12">My Core Skills & Expertise</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                <!-- Skill Card 1: Business Requirement Gathering -->
+                <div class="bg-white p-6 rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 border border-blue-100">
+                    <div class="text-5xl text-blue-500 mb-4">💡</div> <!-- Icon for Idea/Requirements -->
+                    <h3 class="text-xl font-semibold text-gray-700 mb-3">1. Business Requirement Gathering</h3>
+                    <p class="text-gray-600">Adept at conducting workshops, interviews, and surveys to elicit comprehensive business needs from stakeholders.</p>
+                </div>
+
+                <!-- Skill Card 2: Requirement Documentation -->
+                <div class="bg-white p-6 rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 border border-blue-100">
+                    <div class="text-5xl text-green-500 mb-4">📄</div> <!-- Icon for Document -->
+                    <h3 class="text-xl font-semibold text-gray-700 mb-3">2. Requirement Documentation</h3>
+                    <p class="text-gray-600">Proficient in creating clear, concise, and detailed Functional Requirement Specifications (FRS) and other documentation.</p>
+                </div>
+
+                <!-- Skill Card 3: User Story Writing -->
+                <div class="bg-white p-6 rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 border border-blue-100">
+                    <div class="text-5xl text-purple-500 mb-4">📝</div> <!-- Icon for Writing -->
+                    <h3 class="text-xl font-semibold text-gray-700 mb-3">3. User Story Writing</h3>
+                    <p class="text-gray-600">Skilled in crafting user stories with acceptance criteria, facilitating agile development and clear communication.</p>
+                </div>
+
+                <!-- Skill Card 4: Process Mapping -->
+                <div class="bg-white p-6 rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 border border-blue-100">
+                    <div class="text-5xl text-red-500 mb-4">🗺️</div> <!-- Icon for Map/Process -->
+                    <h3 class="text-xl font-semibold text-gray-700 mb-3">4. Process Mapping</h3>
+                    <p class="text-gray-600">Expert in visualizing current and future state business processes using tools like BPMN for optimization.</p>
+                </div>
+
+                <!-- Skill Card 5: Creation of Test Cases & Scripts -->
+                <div class="bg-white p-6 rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 border border-blue-100">
+                    <div class="text-5xl text-yellow-500 mb-4">🧪</div> <!-- Icon for Test Tube -->
+                    <h3 class="text-xl font-semibold text-gray-700 mb-3">5. Creation of Test Cases & Scripts</h3>
+                    <p class="text-gray-600">Developing robust test cases and detailed scripts to ensure solution quality and adherence to requirements.</p>
+                </div>
+
+                <!-- Skill Card 6: Execution of Quality Assurance using Copado Tool -->
+                <div class="bg-white p-6 rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 border border-blue-100">
+                    <div class="text-5xl text-teal-500 mb-4">🛠️</div> <!-- Icon for Tools -->
+                    <h3 class="text-xl font-semibold text-gray-700 mb-3">6. QA Execution with Copado</h3>
+                    <p class="text-gray-600">Hands-on experience with Copado for efficient deployment and quality assurance in Salesforce environments.</p>
+                </div>
+
+                <!-- Skill Card 7: UAT Support -->
+                <div class="bg-white p-6 rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 border border-blue-100">
+                    <div class="text-5xl text-orange-500 mb-4">🤝</div> <!-- Icon for Handshake -->
+                    <h3 class="text-xl font-semibold text-gray-700 mb-3">7. UAT Support</h3>
+                    <p class="text-gray-600">Providing comprehensive support during User Acceptance Testing, facilitating feedback and issue resolution.</p>
+                </div>
+
+                <!-- Skill Card 8: Hyper Care Activities -->
+                <div class="bg-white p-6 rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 border border-blue-100">
+                    <div class="text-5xl text-cyan-500 mb-4">⚙️</div> <!-- Icon for Gear/Support -->
+                    <h3 class="text-xl font-semibold text-gray-700 mb-3">8. Hyper Care Activities</h3>
+                    <p class="text-gray-600">Dedicated post-implementation support to ensure smooth transition and address any immediate post-go-live challenges.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Future Projects Section -->
+    <section id="projects" class="py-16 px-4 md:px-8 bg-white rounded-xl mx-auto mt-8 max-w-7xl shadow-lg">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-12">Future Portfolio Projects</h2>
+            <p class="text-lg text-gray-600 mb-8 max-w-3xl mx-auto">
+                This section will showcase my upcoming and completed Salesforce Business Analyst projects. Click "Generate Description ✨" to get AI-powered summaries!
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                <!-- Project Card Placeholder 1 -->
+                <div class="project-card bg-gray-50 p-6 rounded-2xl shadow-md border border-gray-200 hover:shadow-lg transition duration-300">
+                    <img src="https://placehold.co/400x250/e0e7ff/4338ca?text=Project+Image+1" alt="Project Placeholder" class="rounded-lg mb-4 w-full h-auto object-cover">
+                    <h3 class="project-title text-xl font-semibold text-gray-700 mb-2">Sales Cloud Optimization</h3>
+                    <p class="project-description text-gray-600 text-sm">Focused on enhancing sales processes and increasing user adoption through custom Salesforce configurations and automation.</p>
+                    <button class="generate-description-btn mt-4 inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full shadow-md transform transition duration-300 hover:scale-105 text-sm">
+                        Generate Description ✨
+                    </button>
+                    <div class="loading-indicator text-blue-500 text-sm mt-2 hidden">Generating...</div>
+                </div>
+
+                <!-- Project Card Placeholder 2 -->
+                <div class="project-card bg-gray-50 p-6 rounded-2xl shadow-md border border-gray-200 hover:shadow-lg transition duration-300">
+                    <img src="https://placehold.co/400x250/e0e7ff/4338ca?text=Project+Image+2" alt="Project Placeholder" class="rounded-lg mb-4 w-full h-auto object-cover">
+                    <h3 class="project-title text-xl font-semibold text-gray-700 mb-2">Service Cloud Implementation</h3>
+                    <p class="project-description text-gray-600 text-sm">Leading the implementation of Service Cloud to streamline customer support operations and improve service agent efficiency.</p>
+                    <button class="generate-description-btn mt-4 inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full shadow-md transform transition duration-300 hover:scale-105 text-sm">
+                        Generate Description ✨
+                    </button>
+                    <div class="loading-indicator text-blue-500 text-sm mt-2 hidden">Generating...</div>
+                </div>
+
+                <!-- Project Card Placeholder 3 -->
+                <div class="project-card bg-gray-50 p-6 rounded-2xl shadow-md border border-gray-200 hover:shadow-lg transition duration-300">
+                    <img src="https://placehold.co/400x250/e0e7ff/4338ca?text=Project+Image+3" alt="Project Placeholder" class="rounded-lg mb-4 w-full h-auto object-cover">
+                    <h3 class="project-title text-xl font-semibold text-gray-700 mb-2">Custom App Development</h3>
+                    <p class="project-description text-gray-600 text-sm">Collaborating on the design and build of a custom Salesforce application tailored to unique business requirements.</p>
+                    <button class="generate-description-btn mt-4 inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full shadow-md transform transition duration-300 hover:scale-105 text-sm">
+                        Generate Description ✨
+                    </button>
+                    <div class="loading-indicator text-blue-500 text-sm mt-2 hidden">Generating...</div>
+                </div>
+
+                <!-- Add more project cards as needed -->
+                <div class="project-card bg-gray-50 p-6 rounded-2xl shadow-md border border-gray-200 hover:shadow-lg transition duration-300">
+                    <img src="https://placehold.co/400x250/e0e7ff/4338ca?text=Project+Image+4" alt="Project Placeholder" class="rounded-lg mb-4 w-full h-auto object-cover">
+                    <h3 class="project-title text-xl font-semibold text-gray-700 mb-2">Data Migration & Integration</h3>
+                    <p class="project-description text-gray-600 text-sm">Managing complex data migration strategies and integrating Salesforce with external systems for seamless data flow.</p>
+                    <button class="generate-description-btn mt-4 inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full shadow-md transform transition duration-300 hover:scale-105 text-sm">
+                        Generate Description ✨
+                    </button>
+                    <div class="loading-indicator text-blue-500 text-sm mt-2 hidden">Generating...</div>
+                </div>
+
+                <div class="project-card bg-gray-50 p-6 rounded-2xl shadow-md border border-gray-200 hover:shadow-lg transition duration-300">
+                    <img src="https://placehold.co/400x250/e0e7ff/4338ca?text=Project+Image+5" alt="Project Placeholder" class="rounded-lg mb-4 w-full h-auto object-cover">
+                    <h3 class="project-title text-xl font-semibold text-gray-700 mb-2">Reporting & Analytics Dashboard</h3>
+                    <p class="project-description text-gray-600 text-sm">Designing and implementing insightful Salesforce reports and dashboards to provide actionable business intelligence.</p>
+                    <button class="generate-description-btn mt-4 inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full shadow-md transform transition duration-300 hover:scale-105 text-sm">
+                        Generate Description ✨
+                    </button>
+                    <div class="loading-indicator text-blue-500 text-sm mt-2 hidden">Generating...</div>
+                </div>
+
+                <div class="project-card bg-gray-50 p-6 rounded-2xl shadow-md border border-gray-200 hover:shadow-lg transition duration-300">
+                    <img src="https://placehold.co/400x250/e0e7ff/4338ca?text=Project+Image+6" alt="Project Placeholder" class="rounded-lg mb-4 w-full h-auto object-cover">
+                    <h3 class="project-title text-xl font-semibold text-gray-700 mb-2">User Training & Adoption</h3>
+                    <p class="project-description text-gray-600 text-sm">Developing training materials and facilitating sessions to maximize user adoption and proficiency in Salesforce.</p>
+                    <button class="generate-description-btn mt-4 inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full shadow-md transform transition duration-300 hover:scale-105 text-sm">
+                        Generate Description ✨
+                    </button>
+                    <div class="loading-indicator text-blue-500 text-sm mt-2 hidden">Generating...</div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 px-4 md:px-8 bg-blue-600 text-white rounded-xl mx-auto mt-8 max-w-7xl shadow-lg">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6">Let's Connect!</h2>
+            <p class="text-lg max-w-2xl mx-auto mb-8">
+                I'm always open to discussing new projects, collaborations, or opportunities. Feel free to reach out!
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center items-center gap-4">
+                <a href="mailto:your.email@example.com" class="bg-white text-blue-600 hover:bg-blue-100 font-bold py-3 px-6 rounded-full shadow-md transform transition duration-300 hover:scale-105">
+                    Email Me
+                </a>
+                <a href="https://www.linkedin.com/in/yourprofile" target="_blank" class="bg-white text-blue-600 hover:bg-blue-100 font-bold py-3 px-6 rounded-full shadow-md transform transition duration-300 hover:scale-105">
+                    Connect on LinkedIn
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-6 px-4 md:px-8 text-center mt-8 rounded-t-xl">
+        <div class="container mx-auto">
+            <p>&copy; 2025 Salesforce BA Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const generateButtons = document.querySelectorAll('.generate-description-btn');
+
+            generateButtons.forEach(button => {
+                button.addEventListener('click', async (event) => {
+                    const card = event.target.closest('.project-card');
+                    const projectTitleElement = card.querySelector('.project-title');
+                    const projectDescriptionElement = card.querySelector('.project-description');
+                    const loadingIndicator = card.querySelector('.loading-indicator');
+                    const originalDescription = projectDescriptionElement.textContent; // Store original text
+                    const projectTitle = projectTitleElement.textContent;
+
+                    // Show loading indicator and disable button
+                    loadingIndicator.classList.remove('hidden');
+                    button.disabled = true;
+                    button.textContent = 'Generating...';
+
+                    try {
+                        let chatHistory = [];
+                        const prompt = `Generate a concise (approx. 30-50 words) and professional project description for a Salesforce Business Analyst portfolio based on the project title: "${projectTitle}". Focus on the business value and key BA activities.`;
+                        chatHistory.push({ role: "user", parts: [{ text: prompt }] });
+                        const payload = { contents: chatHistory };
+                        const apiKey = ""; // If you want to use models other than gemini-2.0-flash or imagen-3.0-generate-002, provide an API key here. Otherwise, leave this as-is.
+                        const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`;
+
+                        const response = await fetch(apiUrl, {
+                            method: 'POST',
+                            headers: { 'Content-Type': 'application/json' },
+                            body: JSON.stringify(payload)
+                        });
+
+                        const result = await response.json();
+
+                        if (result.candidates && result.candidates.length > 0 &&
+                            result.candidates[0].content && result.candidates[0].content.parts &&
+                            result.candidates[0].content.parts.length > 0) {
+                            const generatedText = result.candidates[0].content.parts[0].text;
+                            projectDescriptionElement.textContent = generatedText;
+                        } else {
+                            projectDescriptionElement.textContent = originalDescription + " (Error: Could not generate description. Please try again.)";
+                            console.error('Gemini API response structure unexpected:', result);
+                        }
+                    } catch (error) {
+                        projectDescriptionElement.textContent = originalDescription + " (Error generating description. Network issue or API problem.)";
+                        console.error('Error calling Gemini API:', error);
+                    } finally {
+                        // Hide loading indicator and re-enable button
+                        loadingIndicator.classList.add('hidden');
+                        button.disabled = false;
+                        button.textContent = 'Generate Description ✨';
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>                
